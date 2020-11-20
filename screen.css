@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap");
+/*@import url("https://basehold.it/25");*/
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -13,40 +13,67 @@ html{
   font-family: 'Raleway', 'Times New Roman', Times;
   background: #412;
   color: #EEE;
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 25px;
   padding: 22px;
 }
 h1{
   font-weight: bold;
   font-size: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 h2{
   font-weight: bold;
-  padding: 20px 10px 10px 10px;
+  padding: 25px 0px 4px 0px;
 }
 h3{
-  padding-top: 20px;
+  padding: 25px 0px 14px 0px;
   font-weight: bold;
 }
-li{
-  padding: 10px;
+h4{
+  padding: 15px 0px 0px 0px;
 }
 li p{
   padding-top: 10px;
 }
-#navigation ul li{
-  list-style-type: circle;
-  padding-left: 10px;
+main li p{
+  padding: 11px 0px 18px 0px;
+}
+aside h3{
+  padding: 0px 0px 11px 0px;
+}
+p{
+  padding: 11px 0px 11px 0px;
+}
+main p{
+  padding: 22px 0px 0px 0px;
+}
+section h3{
+  padding: 20px 0px 5px 0px;
+}
+section li{
+  padding: 0px 0px 0px 0px;
+}
+#navigation ul{
+  display: flex;
+  border: 5px solid rgb(137, 210, 220);
+  background-color: #DC758F;
+}
+#navigation li{
+  flex: 1;
+}
+#navigation li a{
+  color: #412;
+  text-decoration: none;
 }
 #freetime{
-  padding-top: 20px;
+  padding: 11px 0px 11px 0px;
   font-weight: 700;
 }
-#schools{
-  padding: 10px;
+#schools {
+  padding: 19px 0px 11px 0px;
   text-decoration: underline;
+  padding-bottom: 25px;
 }
 #languages{
   list-style-type: disc;
@@ -55,8 +82,15 @@ li p{
   font-weight: normal;
   font-size: 20px;
 }
+#contact li{
+  padding: 11px 0px 11px 0px;
+}
+#contact li a{
+  color: white;
+  text-decoration: none;
+}
 #footer{
-  padding-top: 30px;
+  padding-top: 15px;
 }
 img{
   display: block;
